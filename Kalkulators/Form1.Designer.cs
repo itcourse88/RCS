@@ -55,13 +55,14 @@
             this.sk4.TabIndex = 3;
             this.sk4.Text = "4";
             this.sk4.UseVisualStyleBackColor = true;
+            this.sk4.Click += new System.EventHandler(this.sk4_Click);
             // 
             // textBox1
             // 
+            this.textBox1.Font = new System.Drawing.Font("Showcard Gothic", 9.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(186)));
             this.textBox1.Location = new System.Drawing.Point(12, 12);
-            this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(275, 54);
+            this.textBox1.Size = new System.Drawing.Size(275, 23);
             this.textBox1.TabIndex = 16;
             // 
             // opIr
@@ -72,6 +73,7 @@
             this.opIr.TabIndex = 17;
             this.opIr.Text = "=";
             this.opIr.UseVisualStyleBackColor = true;
+            this.opIr.Click += new System.EventHandler(this.opIr_Click);
             // 
             // sk2
             // 
@@ -81,6 +83,7 @@
             this.sk2.TabIndex = 18;
             this.sk2.Text = "2";
             this.sk2.UseVisualStyleBackColor = true;
+            this.sk2.Click += new System.EventHandler(this.sk2_Click);
             // 
             // sk1
             // 
@@ -90,6 +93,7 @@
             this.sk1.TabIndex = 19;
             this.sk1.Text = "1";
             this.sk1.UseVisualStyleBackColor = true;
+            this.sk1.Click += new System.EventHandler(this.sk1_Click);
             // 
             // sk3
             // 
@@ -99,6 +103,7 @@
             this.sk3.TabIndex = 20;
             this.sk3.Text = "3";
             this.sk3.UseVisualStyleBackColor = true;
+            this.sk3.Click += new System.EventHandler(this.sk3_Click);
             // 
             // sk5
             // 
@@ -108,6 +113,7 @@
             this.sk5.TabIndex = 21;
             this.sk5.Text = "5";
             this.sk5.UseVisualStyleBackColor = true;
+            this.sk5.Click += new System.EventHandler(this.sk5_Click);
             // 
             // sk6
             // 
@@ -117,6 +123,7 @@
             this.sk6.TabIndex = 22;
             this.sk6.Text = "6";
             this.sk6.UseVisualStyleBackColor = true;
+            this.sk6.Click += new System.EventHandler(this.sk6_Click);
             // 
             // sk7
             // 
@@ -126,6 +133,7 @@
             this.sk7.TabIndex = 23;
             this.sk7.Text = "7";
             this.sk7.UseVisualStyleBackColor = true;
+            this.sk7.Click += new System.EventHandler(this.sk7_Click);
             // 
             // sk8
             // 
@@ -135,6 +143,7 @@
             this.sk8.TabIndex = 24;
             this.sk8.Text = "8";
             this.sk8.UseVisualStyleBackColor = true;
+            this.sk8.Click += new System.EventHandler(this.sk8_Click);
             // 
             // sk9
             // 
@@ -144,6 +153,7 @@
             this.sk9.TabIndex = 25;
             this.sk9.Text = "9";
             this.sk9.UseVisualStyleBackColor = true;
+            this.sk9.Click += new System.EventHandler(this.sk9_Click);
             // 
             // sk0
             // 
@@ -153,6 +163,7 @@
             this.sk0.TabIndex = 26;
             this.sk0.Text = "0";
             this.sk0.UseVisualStyleBackColor = true;
+            this.sk0.Click += new System.EventHandler(this.sk0_Click);
             // 
             // opClear
             // 
@@ -162,6 +173,7 @@
             this.opClear.TabIndex = 27;
             this.opClear.Text = "C";
             this.opClear.UseVisualStyleBackColor = true;
+            this.opClear.Click += new System.EventHandler(this.opClear_Click);
             // 
             // opPluss
             // 
@@ -171,6 +183,7 @@
             this.opPluss.TabIndex = 28;
             this.opPluss.Text = "+";
             this.opPluss.UseVisualStyleBackColor = true;
+            this.opPluss.Click += new System.EventHandler(this.opPluss_Click);
             // 
             // opMinus
             // 
@@ -180,6 +193,7 @@
             this.opMinus.TabIndex = 29;
             this.opMinus.Text = "-";
             this.opMinus.UseVisualStyleBackColor = true;
+            this.opMinus.Click += new System.EventHandler(this.opMinus_Click);
             // 
             // opReiz
             // 
@@ -189,6 +203,7 @@
             this.opReiz.TabIndex = 30;
             this.opReiz.Text = "x";
             this.opReiz.UseVisualStyleBackColor = true;
+            this.opReiz.Click += new System.EventHandler(this.opReiz_Click);
             // 
             // opDalits
             // 
@@ -198,6 +213,7 @@
             this.opDalits.TabIndex = 31;
             this.opDalits.Text = "/";
             this.opDalits.UseVisualStyleBackColor = true;
+            this.opDalits.Click += new System.EventHandler(this.opDalits_Click);
             // 
             // Form1
             // 
