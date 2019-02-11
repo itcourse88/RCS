@@ -18,7 +18,19 @@ namespace D7
 
             labelcount.Text = "Skaits: ";
             buttonAdd.Click += ButtonAdd_Click;
+            buttonMinus.Click += ButtonMinus_Click;
+            buttonClear.Click += ButtonClear_Click;
             inputnumber.Text = "1";
+        }
+
+        private void ButtonClear_Click(object sender, EventArgs e)
+        {
+            inputnumber.Text = "1";
+        }
+
+        private void ButtonMinus_Click(object sender, EventArgs e)
+        {
+            inputnumber.Text = (int.Parse(inputnumber.Text) - 1).ToString();
         }
 
         private void ButtonAdd_Click(object sender, EventArgs e)
