@@ -12,9 +12,9 @@ namespace D1_uzdevumi
         {
             //uzdevums2();
             //uzdevums3();
-            //uzdevums5();
+            uzdevums5();
             //uzdevums6();
-            majasDarbs5();
+            //majasDarbs3();
 
             Console.Read();
         }
@@ -99,20 +99,32 @@ namespace D1_uzdevumi
             Console.Write("ievadi skaitla a vertibu:");
             int a = int.Parse(Console.ReadLine());
 
+           /* Console.WriteLine(a + 5); a*=vai+= vai-= -> maina a vertibu no iepriekseja
+            
+            a=a+1 tas pats kas a+=1 tas pats kas a++ tas pats kas ++a - vertibu palielina pa 1
+
+            Console.WriteLine(a += 5);
+            Console.WriteLine(a -= 3);*/
+
+
            int a5 = a + 5;
            int a3 = a - 3;
            int ar = a * 2;
+           int a1 = a + 1;
+            a = a++;
         
             Console.WriteLine("a+5=" + a5);
             Console.WriteLine("a-3=" + a3);
             Console.WriteLine("a*2=" + ar);
-
+            Console.WriteLine("a+1=" + a1);
+            Console.WriteLine("a++=" +a);
         }
 
         static void majasDarbs4()
         {
             Console.Write("ievadi vardu:");
             string input = Console.ReadLine();
+            //string input = Console.ReadLine().ToUpper();-lai to pasu ierakstitu 1 rinda
             string choice = input.ToUpper();
             Console.WriteLine(choice);
         }
